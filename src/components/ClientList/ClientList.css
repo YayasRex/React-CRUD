@@ -1,0 +1,39 @@
+.ClientList {
+  width: 100%;
+  background-color: rgb(213, 255, 255);
+  margin: 0 80px 0 30px;
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+  margin: auto;
+}
+
+tr {
+  text-align: center;
+}
+
+td {
+  margin: 10px;
+}
+
+thead tr{
+  height: 50px;
+}
+
+.buttons {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.buttons button {
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #dbeeff;
+}
+
+.buttons button:hover {
+  background-color: #bfd0df;
+}

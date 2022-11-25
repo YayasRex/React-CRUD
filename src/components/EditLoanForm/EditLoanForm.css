@@ -1,0 +1,25 @@
+.EditLoanForm {
+  border: 2px solid black;
+  width: 400px;
+  padding: 20px 30px 10px;
+  margin: 30px;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ gap: 5px; 
+}
+
+.input-field {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.subm-btn {
+  text-align: right;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}

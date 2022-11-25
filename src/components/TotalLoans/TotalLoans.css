@@ -1,0 +1,11 @@
+.TotalLoans {
+  text-align: center;
+  border: 2px solid black;
+  width: 30%;
+  margin: 60px 80px;
+}
+
+.TotalLoans h1 {
+  margin: auto;
+  margin: 50px;
+}
