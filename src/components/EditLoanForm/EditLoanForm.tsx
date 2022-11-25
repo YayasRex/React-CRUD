@@ -4,7 +4,6 @@ import ILoanClient, { LoanClient } from '../../types/ILoanClient';
 import { EditLoanFormProps } from '../../types/props';
 
 const EditLoanForm: React.FC<EditLoanFormProps> = ({ currentClient, updateClient, cancelEditing }) => {
-  console.log(currentClient)
   const { register, handleSubmit, reset, setValue, formState: { errors } } = useForm<ILoanClient | LoanClient>({
     defaultValues: currentClient
   });

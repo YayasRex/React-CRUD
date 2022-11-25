@@ -9,9 +9,8 @@ const TotalLoans: React.FC<TotalLoansProps> = ({ clientList }) => {
     setFinalPay(Number((clientList?.reduce(
       (ac, curr) => curr.finalPayment ? ac + curr.finalPayment : ac, 0
     )).toFixed(2)))
-
-  }, [finalPay, clientList])
-
+  }, [clientList])
+  
   return (
     <div className='TotalLoans'>
       <h1>Total payments ${finalPay}</h1>
